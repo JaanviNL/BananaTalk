@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+ 
+body
+{
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+    margin: 0px;
+    background-image: url("/images/Minions.jpg");
+    background-position: center center;
+    background-size: cover;
+
+}
+
+
+.root
+{
+    --gray :#6B7280;
+    
+}
+
+.transbox
+{
+   margin: 30px;
+  background-color:#ffffff;
+  border: 1px hidden black;
+  opacity: 0.8;
+    
+}
+.transbox .h1
+{
+    color: var(--gray);
+    text-align: center;
+}
+.centered-container
+{
+    max-width: 50%;
+    margin: auto;
+    padding: 2rem 2rem;
+}
+
+.h2
+{
+    text-align: center;
+}
+
+.section
+{
+    height: 60px;
+    width: 350px;
+    padding: 1rem;
+    background-color: white;
+    font-style: italic;
+    font-size: large;
+    font-style: bold;
+}
+
+
+.button
+{
+    background-color: yellow;
+    padding: 1rem 4rem;
+    border: 1ps solid var(--gray);
+    font-size: larger;
+     font-style: italic;
+   display: block;
+}
+
+.para
+{
+    text-align: center;
+    font-size: larger;
+}
+
+#txt-output
+{
+    
+    border: 1px solid black;
+    height: 6vh;
+    width: 45%;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: large;
+}
+
